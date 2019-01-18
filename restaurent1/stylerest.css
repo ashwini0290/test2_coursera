@@ -1,0 +1,13 @@
+body {
+	font-size: 16px;
+	color:black;
+	background-color: white;
+	font-family:  helvetica;
+
+}
+
+#header-nav {
+	background-color: green;
+	border-radius: 0;
+	border: 0;
+}
