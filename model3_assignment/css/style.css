@@ -1,0 +1,140 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  font-family: "Comic Sans MS", cursive, sans-serif; 
+  color: black;
+  background-color: white; 
+}
+
+
+/**Header**/
+
+#header-nav {
+  background-color: brown;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 22px;
+}
+
+.navbar-brand h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: black;
+}
+
+.navbar-collapse {
+  border-top: 0;
+}
+#navbar-list {
+  background-color: darkorange;
+  margin-top: 0;
+  margin-bottom: 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: black;
+}
+
+#navbar-list hr {
+  margin-top: 0;
+  margin-bottom: 0;
+  border-top: 1px solid black;
+  }
+
+.navbar-toggle {
+  position: relative;
+  float: right;
+  margin: 40px;
+}
+
+
+/**END of Header**/
+
+/**Body**/
+
+h1 { 
+	margin-bottom: 30px;
+}
+
+.row {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.label {
+  display: block;
+  text-align: center;
+  font-size: 15px;
+  color: black;
+  }
+
+p {
+	width: 100%;
+	padding: 2%;
+	color: black;
+}
+/********** PC devices only **********/
+@media (min-width: 992px) {
+.col-md-12 {
+    float: left;
+    border: 1px solid black;
+    margin: 1%;
+    background-color: gray;
+    padding: 0px;
+    width: 31%;
+  }
+}
+
+.col-md-12 {
+    width: 98%;
+  }
+
+/********** Tablet devices only **********/
+@media (min-width: 768px) and (max-width: 991px){  
+  .col-sm-12 {
+    float: left;
+    border: 1px solid black;
+    margin: 1%;
+    background-color: gray;
+    padding: 0px;
+  }
+
+  .col-sm-6 {
+    width: 48%;
+  }
+  .col-sm-12 {
+    width: 98%;
+  }
+}
+
+.navbar {
+  min-height: 80px;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+/********** Mobile devices only **********/
+@media (max-width: 767px) {
+  .col-xs-12 {
+    float: left;
+    border: 1px solid black;
+    margin:1%;
+    background-color: gray;
+    padding: 0px;
+    width: 98%;
+  }
+
+  .navbar-brand {
+  padding-top: 45px;
+}
