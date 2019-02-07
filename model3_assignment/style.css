@@ -1,140 +1,141 @@
+/* Base Styles */
+
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: Brushstroke, fantasy;
+  color: #000000;
 }
 
 body {
-  margin: auto;
-  font-family: "Comic Sans MS", cursive, sans-serif; 
-  color: black;
-  background-color: white; 
+  background-image: url("background.jpg");
+  background-color: #FEF5CA;
+
 }
-
-
-/**Header**/
-
-#header-nav {
-  background-color: brown;
-  border-radius: 0;
-  border: 0;
-}
-
-.navbar-brand {
-  padding-top: 22px;
-}
-
-.navbar-brand h1 {
-  font-size: 1.5em;
-  font-weight: bold;
-  margin-top: 0;
-  margin-bottom: 0;
-  color: black;
-}
-
-.navbar-collapse {
-  border-top: 0;
-}
-#navbar-list {
-  background-color: darkorange;
-  margin-top: 0;
-  margin-bottom: 0;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-}
-
-.navbar-default .navbar-nav>li>a {
-  color: black;
-}
-
-#navbar-list hr {
-  margin-top: 0;
-  margin-bottom: 0;
-  border-top: 1px solid black;
-  }
-
-.navbar-toggle {
-  position: relative;
-  float: right;
-  margin: 40px;
-}
-
-
-/**END of Header**/
-
-/**Body**/
-
-h1 { 
-	margin-bottom: 30px;
-}
-
-.row {
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.label {
-  display: block;
-  text-align: center;
-  font-size: 15px;
-  color: black;
-  }
 
 p {
-	width: 100%;
-	padding: 2%;
-	color: black;
-}
-/********** PC devices only **********/
-@media (min-width: 992px) {
-.col-md-12 {
-    float: left;
-    border: 1px solid black;
-    margin: 1%;
-    background-color: gray;
-    padding: 0px;
-    width: 31%;
-  }
+  padding: 10px;
+  margin: 0;
 }
 
-.col-md-12 {
-    width: 98%;
-  }
-
-/********** Tablet devices only **********/
-@media (min-width: 768px) and (max-width: 991px){  
-  .col-sm-12 {
-    float: left;
-    border: 1px solid black;
-    margin: 1%;
-    background-color: gray;
-    padding: 0px;
-  }
-
-  .col-sm-6 {
-    width: 48%;
-  }
-  .col-sm-12 {
-    width: 98%;
-  }
+.container {
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
 }
 
-.navbar {
-  min-height: 80px;
+section {
+  border: 1px solid black;
+  background-color: #00FF99;
+  width: 100%;
+  height: auto;
+  font-family: Helvetica;
+  color: black;
+  position: relative;
+  overflow: auto;
+}
+
+#chicken {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+  background-color: #FFFF00;
+}
+
+#beef {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+  background-color: #FF1439;
+}
+
+#sushi {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  background-color: #6495ED;
+  color: white;
+  padding: 5px;
+}
+
+#chicken-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#beef-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#sushi-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .navbar-brand {
-  padding-top: 25px;
+  font-size: 2em;
+  border: 0 0 10px 10px;
+  color: #FFFFFF;
 }
-/********** Mobile devices only **********/
-@media (max-width: 767px) {
-  .col-xs-12 {
-    float: left;
-    border: 1px solid black;
-    margin:1%;
-    background-color: gray;
-    padding: 0px;
-    width: 98%;
-  }
 
-  .navbar-brand {
-  padding-top: 45px;
+#header-nav {
+  border: 0;
+  background-color: #FC5F06;
+  color: #FFFFFF;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+.nav-header {
+  background-color: #FFFFFF;
+}
+
+.nav-brand {
+  color: #FFFFFF;
+  font-size: 1.5em;
+}
+
+#nav-list {
+  color: white;
+}
+
+hr {
+  border-color: white;
+}
+
+.item {
+  color: white;
+  font-size: 1.2em;
 }
