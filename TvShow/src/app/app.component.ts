@@ -15,9 +15,10 @@ export class AppComponent {
   }
   doSearch(searchValue){
     const UserInput = searchValue.trim();
-    this.tvshowService.getTvShow(UserInput).subscribe(data =>{ this.TvShow = data;
-
+    this.tvshowService
+    .getTvShow(UserInput)
+    .subscribe(data =>{ this.TvShow = data;
     } );
-
+    
   }
 }
