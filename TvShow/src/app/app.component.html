@@ -1,0 +1,16 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <mat-toolbar>
+    Welcome to {{ title }}!
+  </mat-toolbar>
+  
+  </div>
+  <app-tvsearch (searchEvent)= "doSearch($event)"></app-tvsearch>
+  <mat-card>
+    <h2>Tv Show Details</h2>
+    <app-tv-show-component [show] = "tvShow" ></app-tv-show-component>
+  </mat-card>
+  
+
+
+

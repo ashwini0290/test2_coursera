@@ -1,0 +1,24 @@
+<div>
+  <div>
+    <span> ShowName:{{show?.name}}</span>
+    <span>{{show?.channel}}</span>
+    <br>
+    <span> Runtime:
+      {{show?.runtime}}minutes
+    </span>
+    <br>
+    <span> Rating:
+      {{show?.rating}}
+    </span>
+    <br>
+    <span> Genres:
+      {{show?.genre}}
+    </span>
+    <div>
+      <img [src] ='show?.image'>
+       <span>
+        Summary: {{show?.summary}}
+      </span>
+    </div>
+  </div>
+</div>
